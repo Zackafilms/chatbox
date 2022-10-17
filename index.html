@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>chatbox</title>
+    <link href="style.css" ref="stylesheet" type="text/css">
+  </head>
+  <body>
+    <a href="signup.php"><button>Signup</button></a>
+    <a href="login.php"><button>Login</button></a>
+    <h1>You Must Be Logged In To Chat!</h1>
+    <srcipt src="script.js">RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^([^\.]+)$ $1.html [NC, L]</script>
+  </body>
+</html>
